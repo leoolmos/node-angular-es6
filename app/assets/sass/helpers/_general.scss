@@ -1,0 +1,41 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html, body {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+  padding-bottom: 50px;
+  text-align: center;
+  .container {
+    position: relative;
+    z-index: 2;
+    text-align: left;
+    h1 {
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+      margin: 20px 0 10px 0;
+    }
+
+  }
+}
+
+@media (min-width : 768px)  {
+}
+
+@media (min-width : 992px)  {
+}

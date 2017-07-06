@@ -1,0 +1,22 @@
+{
+  "name": "boilerplate-angular-es6",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Leo Olmos <leonardodesantos@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "^5.0.0",
+    "angular": "1.5.5",
+    "angular-route": "1.5.5"
+  }
+}

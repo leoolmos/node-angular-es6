@@ -1,0 +1,11 @@
+@mixin bp($point) {
+  @if $point == tablet {
+    @media (min-width : 768px)  { @content; }
+  }
+  @else if $point == desktop {
+    @media (min-width : 992px) { @content; }
+  }
+  @else if $point == largedesktop {
+    @media (min-width : 1200px) { @content; }
+  }
+}
